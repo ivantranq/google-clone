@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 import AppsIcon from "@mui/icons-material/Apps";
 import App from "../App";
 import { Avatar } from "@mui/material";
-import Search from "../components/Search"
+import Search from "../components/Search";
 
 const Home = () => {
   return (
@@ -28,7 +28,7 @@ const Home = () => {
           className="body__logo"
         />
         <div className="input__container">
-            <Search />
+          <Search />
         </div>
       </div>
     </div>

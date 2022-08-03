@@ -2,7 +2,7 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: Arial, Arial, Helvetica, sans-serif, sans-serif;
 }
 
 .search-page__header {
@@ -27,4 +27,75 @@
     width: unset;
     margin: unset;
     max-width: unset;
+}
+
+.search-page__options {
+    display: flex;
+    align-items: center;
+    color: gray;
+    margin-top: 30px;
+}
+
+.search-page__options--left,
+.search-page__options--right {
+    display: flex;
+}
+
+.search-page__options--left a,
+.search-page__options--right a {
+    text-decoration: none;
+    color: gray;
+}
+
+.search-page__options--right {
+    margin-left: 80px;
+}
+
+.search-page__option {
+    display: flex;
+    align-items: center;
+    margin-right: 20px;
+}
+
+/* 
+
+SEARCH PAGE BODY
+
+*/
+
+.search-page__results {
+    max-width: 650px;
+    margin-top: 20px;
+    margin-left: 240px;
+    margin-bottom: 100px;
+}
+
+.search-page__result {
+    margin: 40px 0;
+}
+
+.search-page__result--title {
+    text-decoration: none;
+}
+
+.search-page__result--title:hover {
+    text-decoration: underline;
+}
+.search-page__result--title h2 {
+    font-weight: 500;
+}
+
+.search-page__results-count {
+    color: #70757a;
+}
+
+.search-page__result--snippet {
+    margin-top: 10px;
+}
+
+.search-page__result--image {
+    object-fit: contain;
+    height: 20px;
+    width: 20px;
+    margin-right: 10px;
 }
